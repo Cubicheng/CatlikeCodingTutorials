@@ -1,4 +1,7 @@
-// 1. 声明位置缓冲区（只读）
+//存在于材质的shader graph中
+//通知渲染器每个实例应该摆放在哪里
+
+//对应GPUGraph中的positionBuffer，指向GPUGraph中开辟的那一块显存
 #if defined(UNITY_PROCEDURAL_INSTANCING_ENABLED)
     StructuredBuffer<float3> _Positions;
 #endif

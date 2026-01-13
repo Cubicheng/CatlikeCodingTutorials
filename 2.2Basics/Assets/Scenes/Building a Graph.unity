@@ -295,7 +295,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: c332b416f28254d44bc68315b51e92ad, type: 2}
   mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-  resolution: 1000
+  resolution: 500
   computeShader: {fileID: 7200000, guid: b174892646e8d924c95b924616a4a4b1, type: 3}
   functionName: 0
   transitionMode: 0
